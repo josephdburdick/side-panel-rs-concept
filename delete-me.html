@@ -1,0 +1,184 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CITIZEN SFA</title> 
+  <link rel="stylesheet" href="assets/css/jquery.mobile-1.3.1.min.css" />
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script src="assets/royalslider/jquery-1.8.3.min.js"></script>
+
+  <script src="assets/js/vendor/video.min.js"></script>
+  <script class="rs-file" src="assets/royalslider/jquery.royalslider.min.js"></script>
+  
+  <script src="assets/js/vendor/jquery.transit.min.js"></script>
+  <script src="assets/js/vendor/overthrow.js"></script>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/vendor/jquery.mobile-1.3.1.min.js"></script>
+
+</head> 
+
+  
+<body>
+    <div class="face-mask"></div>
+    <nav id="mobile-nav" data-theme="a" class="panel overthrow">
+      <!-- panel content goes here -->
+      <div class="content-top">
+        <h3>Menu</h3>
+      </div>
+        <ul class="nav-columns">
+          <li class="nav-column active" id="menu-home">
+            <ul>
+              
+              <li><a href="#" data-link="#page-1">Page 1</a></li>
+              <li><a href="#" data-link="#page-2">Page 2</a></li>
+              <li><a href="#" data-link="page-3.html">External Page</a></li>
+
+              <li><a href="#" data-menu="#test-menu2" data-link="#page-2">Submenu 1</a></li>
+
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav', 'somethin','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav(undefined,'herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp', 'page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','somethin','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav(undefined,'herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp', 'page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav', 'somethin','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav(undefined,'herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','derp','page-2')">Link</a></li>
+              <li><a href="javascript:panelNav('mobile-nav','herp','page-1')">Link</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-column" id="test-menu2">
+            <a href="javascript:sliderNav('slider-nav','derp')">&larr; Back</a>
+            <h3>Nav Column Header </h3>
+            <h4>Nav Subheader</h4>
+            <ul>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-column detail" data-detail="">
+            <a href="#">&larr; Back</a>
+            <h3>Nav Detail Column</h3>
+            <h4>Nav Subheader</h4>
+            <ul>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </li>
+          
+          <li class="nav-column detail" data-detail="">
+            <a href="#">&larr; Back</a>
+            <h3>Nav Detail Column</h3>
+            <h4>Nav Subheader</h4>
+            <ul>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </li>
+          
+        </ul> 
+  </nav><!-- /panel -->
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="page-1">
+  
+  <div data-role="header" data-position="fixed">
+    <a href="javascript:panelToggle('nav-left');" class="nav-handle" data-enhance="false" data-role="none">&larr;</a>
+    <h1>Brandforma v2</h1>
+  </div>
+  
+  <div data-role="content">
+
+    <div class="sliderContainer fullWidth clearfix">
+      <div id="full-width-slider2" class="royalSlider fullWidth">
+        
+        <div class="rsContent" style="background:brown">  
+        </div> <!-- /slide -->
+
+        <div class="rsContent" style="background:grey">
+        </div> <!-- /slide -->
+
+      </div> <!-- full-width-slider -->
+    </div> <!-- /.sliderContainer -->
+
+  </div> <!-- /[content] -->
+</div> <!-- [page]#page-1 -->
+
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="page-2">
+  
+  <div data-role="header" data-position="fixed">
+    <a href="javascript:panelToggle('nav-left');" class="nav-handle" data-enhance="false" data-role="none">&larr;</a>
+    <h1>Brandforma v2</h1>
+  </div>
+  <div data-role="content">
+
+    <div class="sliderContainer fullWidth clearfix">
+      <div id="full-width-slider" class="royalSlider fullWidth">
+        
+        <div class="rsContent" style="background:purple">  
+        </div> <!-- /slide -->
+
+        <div class="rsContent" style="background:green">
+        </div> <!-- /slide -->
+
+      </div> <!-- full-width-slider -->
+    </div> <!-- /.sliderContainer -->
+
+  </div> <!-- /[content] -->
+</div> <!-- [page]#page-1 -->
+
+</body>
+</html>
